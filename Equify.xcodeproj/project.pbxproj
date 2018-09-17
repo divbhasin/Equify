@@ -14,9 +14,16 @@
 		6F271AAE21343D2E0098305F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F271AAD21343D2E0098305F /* Assets.xcassets */; };
 		6F271AB121343D2E0098305F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F271AAF21343D2E0098305F /* LaunchScreen.storyboard */; };
 		6F271AB421343D2E0098305F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F271AB321343D2E0098305F /* main.m */; };
+		6F271ABD21343E4E0098305F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F271ABC21343E4E0098305F /* LoginViewController.m */; };
+		6F880544214C337C00221FA1 /* StartUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F880543214C337C00221FA1 /* StartUpViewController.m */; };
+		6F880547214C48BD00221FA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F880546214C48BD00221FA1 /* GoogleService-Info.plist */; };
+		6F88054B214C4AD100221FA1 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F88054A214C4AD100221FA1 /* SignUpViewController.m */; };
+		9E9309410468143E65BB510C /* libPods-Equify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDE3712D0C9F7663DC0A90C /* libPods-Equify.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1613AB2CB5D12BAB3AD45A5A /* Pods-Equify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Equify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Equify/Pods-Equify.debug.xcconfig"; sourceTree = "<group>"; };
+		4EDE3712D0C9F7663DC0A90C /* libPods-Equify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Equify.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F271A9E21343D2E0098305F /* Equify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Equify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F271AA121343D2E0098305F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F271AA221343D2E0098305F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +36,14 @@
 		6F271AB021343D2E0098305F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F271AB221343D2E0098305F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F271AB321343D2E0098305F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F271ABC21343E4E0098305F /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6F271ABE21343E5F0098305F /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6F880543214C337C00221FA1 /* StartUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartUpViewController.m; sourceTree = "<group>"; };
+		6F880545214C338800221FA1 /* StartUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartUpViewController.h; sourceTree = "<group>"; };
+		6F880546214C48BD00221FA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F88054A214C4AD100221FA1 /* SignUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		6F88054C214C4AE100221FA1 /* SignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		9327ACF1A8F70275453BC4E3 /* Pods-Equify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Equify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Equify/Pods-Equify.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E9309410468143E65BB510C /* libPods-Equify.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B85F90E89F0AA6289FEF0CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EDE3712D0C9F7663DC0A90C /* libPods-Equify.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		509F52A810FFC017576D924C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1613AB2CB5D12BAB3AD45A5A /* Pods-Equify.debug.xcconfig */,
+				9327ACF1A8F70275453BC4E3 /* Pods-Equify.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6F271A9521343D2E0098305F = {
 			isa = PBXGroup;
 			children = (
 				6F271AA021343D2E0098305F /* Equify */,
 				6F271A9F21343D2E0098305F /* Products */,
+				509F52A810FFC017576D924C /* Pods */,
+				3B85F90E89F0AA6289FEF0CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +107,13 @@
 				6F271AAF21343D2E0098305F /* LaunchScreen.storyboard */,
 				6F271AB221343D2E0098305F /* Info.plist */,
 				6F271AB321343D2E0098305F /* main.m */,
+				6F271ABC21343E4E0098305F /* LoginViewController.m */,
+				6F271ABE21343E5F0098305F /* LoginViewController.h */,
+				6F880546214C48BD00221FA1 /* GoogleService-Info.plist */,
+				6F880543214C337C00221FA1 /* StartUpViewController.m */,
+				6F880545214C338800221FA1 /* StartUpViewController.h */,
+				6F88054A214C4AD100221FA1 /* SignUpViewController.m */,
+				6F88054C214C4AE100221FA1 /* SignUpViewController.h */,
 			);
 			path = Equify;
 			sourceTree = "<group>";
@@ -83,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F271AB721343D2E0098305F /* Build configuration list for PBXNativeTarget "Equify" */;
 			buildPhases = (
+				C0CF4F73DB02775064E07FF6 /* [CP] Check Pods Manifest.lock */,
 				6F271A9A21343D2E0098305F /* Sources */,
 				6F271A9B21343D2E0098305F /* Frameworks */,
 				6F271A9C21343D2E0098305F /* Resources */,
+				4F1820753D121C94ECDF6E72 /* [CP] Embed Pods Frameworks */,
+				22287B31DDEAC8F6555F0EFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,11 +181,63 @@
 			files = (
 				6F271AB121343D2E0098305F /* LaunchScreen.storyboard in Resources */,
 				6F271AAE21343D2E0098305F /* Assets.xcassets in Resources */,
+				6F880547214C48BD00221FA1 /* GoogleService-Info.plist in Resources */,
 				6F271AAC21343D2E0098305F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22287B31DDEAC8F6555F0EFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Equify/Pods-Equify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F1820753D121C94ECDF6E72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Equify/Pods-Equify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0CF4F73DB02775064E07FF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Equify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6F271A9A21343D2E0098305F /* Sources */ = {
@@ -149,8 +246,11 @@
 			files = (
 				6F271AA921343D2E0098305F /* SecondViewController.m in Sources */,
 				6F271AA321343D2E0098305F /* AppDelegate.m in Sources */,
+				6F880544214C337C00221FA1 /* StartUpViewController.m in Sources */,
 				6F271AB421343D2E0098305F /* main.m in Sources */,
 				6F271AA621343D2E0098305F /* FirstViewController.m in Sources */,
+				6F88054B214C4AD100221FA1 /* SignUpViewController.m in Sources */,
+				6F271ABD21343E4E0098305F /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +382,7 @@
 		};
 		6F271AB821343D2E0098305F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1613AB2CB5D12BAB3AD45A5A /* Pods-Equify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +396,7 @@
 		};
 		6F271AB921343D2E0098305F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9327ACF1A8F70275453BC4E3 /* Pods-Equify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

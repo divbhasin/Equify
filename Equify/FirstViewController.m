@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    for (UISlider *slider in self.sliders) {
+        [slider removeConstraints:slider.constraints];
+        [slider setTranslatesAutoresizingMaskIntoConstraints:YES];
+        
+        slider.transform=CGAffineTransformRotate(slider.transform,270.0/180*M_PI);
+    }
 }
 
 

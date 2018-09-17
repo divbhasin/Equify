@@ -10,6 +10,7 @@
 
 @interface FirstViewController : UIViewController
 
+@property (strong, nonatomic) IBOutletCollection(UISlider) NSArray *sliders;
 
 @end
 
