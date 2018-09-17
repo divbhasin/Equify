@@ -15,6 +15,7 @@
 		6F271AB121343D2E0098305F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F271AAF21343D2E0098305F /* LaunchScreen.storyboard */; };
 		6F271AB421343D2E0098305F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F271AB321343D2E0098305F /* main.m */; };
 		6F271ABD21343E4E0098305F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F271ABC21343E4E0098305F /* LoginViewController.m */; };
+		6F7D7963214F4EFA00968A82 /* SearchHeadphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D7962214F4EFA00968A82 /* SearchHeadphone.xib */; };
 		6F880544214C337C00221FA1 /* StartUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F880543214C337C00221FA1 /* StartUpViewController.m */; };
 		6F880547214C48BD00221FA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F880546214C48BD00221FA1 /* GoogleService-Info.plist */; };
 		6F88054B214C4AD100221FA1 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F88054A214C4AD100221FA1 /* SignUpViewController.m */; };
@@ -38,6 +39,7 @@
 		6F271AB321343D2E0098305F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F271ABC21343E4E0098305F /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		6F271ABE21343E5F0098305F /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6F7D7962214F4EFA00968A82 /* SearchHeadphone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchHeadphone.xib; sourceTree = "<group>"; };
 		6F880543214C337C00221FA1 /* StartUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartUpViewController.m; sourceTree = "<group>"; };
 		6F880545214C338800221FA1 /* StartUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartUpViewController.h; sourceTree = "<group>"; };
 		6F880546214C48BD00221FA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				6F880545214C338800221FA1 /* StartUpViewController.h */,
 				6F88054A214C4AD100221FA1 /* SignUpViewController.m */,
 				6F88054C214C4AE100221FA1 /* SignUpViewController.h */,
+				6F7D7962214F4EFA00968A82 /* SearchHeadphone.xib */,
 			);
 			path = Equify;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F7D7963214F4EFA00968A82 /* SearchHeadphone.xib in Resources */,
 				6F271AB121343D2E0098305F /* LaunchScreen.storyboard in Resources */,
 				6F271AAE21343D2E0098305F /* Assets.xcassets in Resources */,
 				6F880547214C48BD00221FA1 /* GoogleService-Info.plist in Resources */,
